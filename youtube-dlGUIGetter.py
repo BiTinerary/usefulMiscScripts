@@ -1,5 +1,5 @@
 import Tkinter as tk
-import os, subprocess, youtube_dl
+import youtube_dl
 
 class mainApp(tk.Tk): # The core class for creating tkinter GUI
 	def __init__(self):
