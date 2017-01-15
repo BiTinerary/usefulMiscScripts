@@ -1,6 +1,5 @@
 # usefulMiscScripts
-Usefull 'one day build' scripts. Not quite a gist, note quite an entire repo.
-
+Usefull 'one day build' scripts. Doesn't quite need a repo but too cool for a gist.
 
 ## youtube-dl GUI Getter
 <img src="https://github.com/BiTinerary/usefulMiscScripts/blob/master/youtube-dlGuiGetter.png?raw=true"><br>
