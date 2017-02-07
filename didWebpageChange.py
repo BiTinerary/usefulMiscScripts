@@ -31,6 +31,7 @@ def readFile():
 				print "WE ARE STILL DOWN!!!"
 			else:
 				print "We Are Good Now"
+				break
 
 while True:
 	getUpdate()
