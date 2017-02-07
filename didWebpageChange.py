@@ -7,23 +7,23 @@ import re
 import time
 import requests
 
-url = 'https://www.walmart.com/ip/Luminara-19-Heritage-Indoor-Outdoor-Lantern-Red-TEST/884755658'
+url = 'www.placeAUrlHere.com'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
 daGoodz = requests.get(url, headers=headers)
 contentz = daGoodz.content
 
 def getUpdate():
-	with open('wallyDownText.txt', 'w') as wallyText:
-	    wallyText.write(contentz)
-	    wallyText.close()
+	with open('tempTextFileOfHTMLSourceCode.txt', 'w') as overWriteFile:
+	    overWriteFile.write(contentz)
+	    overWriteFile.close()
 
 def readFile():
-	with open('wallyDownText.txt', 'r') as wallyTextTwo:
+	with open('tempTextFileOfHTMLSourceCode.txt', 'r') as readOnlyFile:
 		findThis = "We're having technical difficulties and are looking into the problem now."
-		lines = wallyTextTwo.readlines()
+		lines = readOnlyFile.readlines()
 		for line in lines:
-			findMe = re.findall(str(findThis), line)
+			findMe = re.findall(str(findThis), line) # findThis string within this thing (line)
 			if findMe == []:
 				continue
 			elif findMe == ["We're having technical difficulties and are looking into the problem now."]:
