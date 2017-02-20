@@ -7,3 +7,6 @@ Credit: <a href='https://github.com/rg3/youtube-dl'>https://github.com/rg3/youtu
 
 ## WOL.py
 Place in <a href='http://www.friendlyarm.com/index.php?route=product/product&path=69&product_id=151'>NanoPi Neo Air's</a> `\if-up.d` directory. When I get home, send magic packet. On startup/wakeup run script to start music/pandora.
+
+## ESP8266 SD Card WebServer
+Back up of and credz to <a href='https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WebServer/examples/SDWebServer/SDWebServer.ino'>this</a> `.ino` file.
