@@ -14,4 +14,5 @@ Back up of and credz to <a href='https://github.com/esp8266/Arduino/blob/master/
 ## Fun Money and Net Paycheck Calculator
 Figure out upcoming paycheck after taxes. Figure out budget after bills due.
 * TODO: Output array vars to .txt/.csv
+* TODO: Static numbers for income tax, wage, etc... for offline usage.
 <img src='https://s11.postimg.org/qlagttk77/fun_Money_Tkinter.png'>
