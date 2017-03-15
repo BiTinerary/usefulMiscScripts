@@ -43,7 +43,7 @@ class mainApp(tk.Tk):
 			
 			except:
 				tk.Label(width=75, height=3, textvariable=v, relief='ridge', fg='red').grid(row=7, rowspan=3, column=0, columnspan=2, padx=5, pady=5)
-				v.set("MISSING INPUT/S")
+				v.set("INVALID INPUT/S")
 
 		self.bind('<Return>', (lambda event: getInput()))
 
