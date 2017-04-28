@@ -1,1 +1,1 @@
-C:\Python27\python.exe C:\Users\G\Desktop\sendTextViaGmail.py %1
+python %USERPROFILE%\Desktop\sendTextViaGmail.py %1
