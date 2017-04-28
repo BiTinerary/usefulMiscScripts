@@ -1,5 +1,5 @@
 # usefulMiscScripts
-Usefull 'one day build' scripts. Doesn't quite need a repo but too cool for a gist. Effectively just a back up and documentation for various scripts and projects I've worked on over time. Doubles as a referencing tool for programming techniques learned over time but not used frequently enough to know by heart. The more that is added the more GitHub's language percentages becomes reflective of my actual programming language knowlege.
+Usefull 'one day build' scripts. Doesn't quite need a repo but too cool for a gist. Effectively just a back up and documentation for various scripts and projects I've worked on over time. Doubles as a referencing tool for programming techniques learned over time but not used frequently enough to recite by heart. The more that is added the more GitHub's language percentages becomes reflective of my actual programming language knowlege.
 
 ## youtube-dl GUI Getter
 <img src="https://github.com/BiTinerary/usefulMiscScripts/blob/master/youtube-dlGuiGetter.png?raw=true"><br>
