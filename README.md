@@ -25,3 +25,8 @@ Get sums of specified columns, from a .csv with headers. Pretty print output lik
 Place **sendText.bat** in `C:\Windows\System32\` directory. This contains a python command to run the **sendSMS.py** script from `%USERPROFILE%\Desktop\` while passing one argument string. Usage example: <br><kbd>![Windows Key][oldwinlogo]</kbd>+<kbd>R</kbd> then run `sendText "AnyString Here"` This sends email/SMS to phone number provided on line 3 of `gmailCreds.txt` from gmail address on line 1 and 2.
 
 [oldwinlogo]: http://i.stack.imgur.com/T0oPO.png
+
+## generateWebpageIconButtons
+Assign your favorite websites to **hardcoded.txt**. Run **generateHTML.py** and an **index.html** with be generated. For each website specified, it will try to grab the favicon/apple icon for the website (if the website has one) then use that icon as a button which links to said webpage. The overall layout/styling of the buttons and html is pretty relative (adjusts depending on screen size/browser) but could use some work. Functions decently on Android in landscape mode. Which is the idea usecase, quick easy access to favorites on an android phone. But more customizeable/expandable than say Chrome's 'recently viewed'. <br>
+Example:<br>
+<img src='https://camo.githubusercontent.com/d4b39be4ed30f6367d39ca0989e6ecb4b66596ce/68747470733a2f2f7331312e706f7374696d672e6f72672f7538766166387765722f3332313332312e706e67'>
