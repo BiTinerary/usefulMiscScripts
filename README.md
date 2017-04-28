@@ -22,6 +22,6 @@ Figure out upcoming paycheck after taxes. Figure out budget after bills due.
 Get sums of specified columns, from a .csv with headers. Pretty print output like "Headers: columnSum". Run from CLI by passing .csv file name as argument. ie: **`python csvToDictAddColumns.py example.csv`**
 
 ## Send SMS From Command Line
-Place **sendText.bat** in `C:\Windows\System32\` directory. This contains a python command to run the **sendSMS.py** script from `%USERPROFILE%\Desktop\` while passing one argument string. Usage example:<kbd>![Windows Key][oldwinlogo]</kbd>+<kbd>R</kbd> then run `sendText "AnyString Here"` This sends email/SMS to phone number provided on line 3 of `gmailCreds.txt` from gmail address on line 1 and 2.
+Place **sendText.bat** in `C:\Windows\System32\` directory. This contains a python command to run the **sendSMS.py** script from `%USERPROFILE%\Desktop\` while passing one argument string. <br>Usage example: <kbd>![Windows Key][oldwinlogo]</kbd>+<kbd>R</kbd> then run `sendText "AnyString Here"` This sends email/SMS to phone number provided on line 3 of `gmailCreds.txt` from gmail address on line 1 and 2.
 
 [oldwinlogo]: http://i.stack.imgur.com/T0oPO.png
