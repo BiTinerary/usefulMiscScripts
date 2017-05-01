@@ -11,7 +11,7 @@ def initiatePin(): #Enable various functions and config for spefic GPIO on NanoP
 	gpio.setcfg(port.PA6, gpio.OUTPUT)
 	gpio.input(port.PA6)
 
-	gpio.setcfg(port.PA6, 0) #Same as above
+	gpio.setcfg(port.PA6, 0) #Same as above, for some reason GPIO doesn't work or setup correctly if not done like this verbatim.
 	gpio.pullup(port.PA6, 0) #Clear pullups
 	gpio.pullup(port.PA6, gpio.PULLDOWN) #Enable pull-down
 	gpio.pullup(port.PA6, gpio.PULLUP) #Enable pull-up
