@@ -36,13 +36,11 @@ def sendAlert():
 initiatePin() #start of script
 while True: #Initiate loop
 	time.sleep(2) 
-	print "Door is: %s" % doorState()[1] #Log
-	print "Door Value: %s" % doorState()[0] #Log
+	print "Door is: %s" % doorState()[1]
+	print "Door Value: %s" % doorState()[0]
 	
-	if doorState()[0] == 0: #Door is closed, do nothing.
+	if doorState()[0] == 0:
 		pass
-	
-	elif doorState()[0] == 1: #Door is open, run "sendAlert" function.
+	elif doorState()[0] == 1:
 		sendAlert()
-	
-	print "\n" # pretty print
+	print "\n"
