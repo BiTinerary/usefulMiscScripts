@@ -22,7 +22,6 @@ def doorState(): #Get the state of the door's reed switch.
 		doorStateString = 'Closed'
 	elif doorStateValue == 1:
 		doorStateString = "Open"
-
 	return doorStateValue, doorStateString # Return tuple. One boolean, one string.
 
 def sendAlert():
