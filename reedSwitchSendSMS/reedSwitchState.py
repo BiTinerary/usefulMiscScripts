@@ -29,8 +29,8 @@ def sendAlert():
 	getTimeStamp = datetime.datetime.now().strftime('%H:%M:%S %m-%d-%Y')# timestamp. concatenated string of current time and date
 	alertMessage = "Door Opened: %s" % getTimeStamp
 	print alertMessage
-	sendEmail(alertMessage) #pass "alertMessage" as argument to sendEmail. Which is an imported function from another script.
-	time.sleep(120) # This uses smptlib library to send a message, from my gmail account to the email address of my cell number.
+	sendEmail(alertMessage) #pass "alertMessage" as argument to sendEmail. Which is an imported function from another script...
+	time.sleep(120) # This ^ uses smptlib library to send a message, from my gmail account to the email address of my cell number.
 
 	
 initiatePin() #start of script
