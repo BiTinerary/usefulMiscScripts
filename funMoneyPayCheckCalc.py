@@ -19,12 +19,12 @@ class mainApp(tk.Tk):
 
 		def getInput():
 			try:
-				payRate = int(entry1.get())
-				totalHours = int(entry2.get())
+				payRate = float(entry1.get())
+				totalHours = float(entry2.get())
 				minusIncomeTax = float(entry3.get())
-				minusBill1 = int(entry4.get())
-				minusBill2 = int(entry5.get())
-				minusBill3 = int(entry6.get())
+				minusBill1 = float(entry4.get())
+				minusBill2 = float(entry5.get())
+				minusBill3 = float(entry6.get())
 			
 				grossCheck = payRate * totalHours
 				totalTaxes = grossCheck * minusIncomeTax
