@@ -16,7 +16,7 @@ Back up of and credz to <a href='https://github.com/esp8266/Arduino/blob/master/
 Figure out upcoming paycheck after taxes. Figure out budget after bills due.
 * TODO: Output array vars to .txt/.csv
 * TODO: Static numbers for income tax, wage, etc... for offline usage.
-<a href='https://camo.githubusercontent.com/1f44462d3918e1988314f9d0621a32da14d356fc/68747470733a2f2f7331312e706f7374696d672e6f72672f716c616774746b37372f66756e5f4d6f6e65795f546b696e7465722e706e67'><img src='https://s11.postimg.org/qlagttk77/fun_Money_Tkinter.png'></a>
+<a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/funMoneyPayCheckCalc.py'><img src='https://s11.postimg.org/qlagttk77/fun_Money_Tkinter.png'></a>
 
 ## csvToDictAddColumns.py
 Get sums of specified columns, from a .csv with headers. Pretty print output like "Headers: columnSum". Run from CLI by passing .csv file name as argument. ie: **`python csvToDictAddColumns.py example.csv`**
