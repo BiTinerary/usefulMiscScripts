@@ -13,9 +13,7 @@ Place in <a href='http://www.friendlyarm.com/index.php?route=product/product&pat
 Back up of and credz to <a href='https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WebServer/examples/SDWebServer/SDWebServer.ino'>this</a> `.ino` file.
 
 ## Fun Money and Net Paycheck Calculator
-Figure out upcoming paycheck after taxes. Figure out budget after bills due.
-* TODO: Output array vars to .txt/.csv
-* TODO: Static numbers for income tax, wage, etc... for offline usage.
+Figure out upcoming paycheck after taxes. Figure out budget after bills due. **TODO**: Output array vars to .txt/.csv
 <a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/funMoneyPayCheckCalc.py'><img src='https://s11.postimg.org/qlagttk77/fun_Money_Tkinter.png'></a>
 
 ## csvToDictAddColumns.py
@@ -35,6 +33,6 @@ Example:<br>
 <a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/generateWebpageIconButtons/generateHTML.py'><img src='https://camo.githubusercontent.com/d4b39be4ed30f6367d39ca0989e6ecb4b66596ce/68747470733a2f2f7331312e706f7374696d672e6f72672f7538766166387765722f3332313332312e706e67'></a>
 
 ## eBayFeesCalculator.py
-This is a spin off of the basic **Fun Money and Net Paycheck Calculator** calculator GUI. Only for calculating sales on eCommerce Platforms. With eCommerce Poll Taxes, shipping and such in mind. ie: hardcoded PayPal fee of .029% (+.30 cent transaction fee), ebay's 10% of the total sale, manual shipping cost. All minus gross sales to get net profit. So on, so forth. TODO: Margins, Markup, etc...<br>
+This is a spin off of the basic **Fun Money and Net Paycheck Calculator** calculator GUI. Only for calculating sales on eCommerce Platforms. With eCommerce Poll Taxes, shipping and such in mind. ie: hardcoded PayPal fee of .029% (+.30 cent transaction fee), ebay's 10% of the total sale, manual shipping cost. All minus gross sales to get net profit. So on, so forth. <br>**TODO**: Margins, Markup, etc...<br>
 <br>
 <a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/eBayFeesCalculator.py'><img src='https://github.com/BiTinerary/usefulMiscScripts/blob/master/ebayCalculatorImg.png'></a>
