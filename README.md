@@ -32,7 +32,7 @@ Assign your favorite websites to **hardcoded.txt**. Run **generateHTML.py** and 
 The overall layout/styling of the buttons and html is pretty relative (adjusts depending on screen size/browser) but could use some work. Usecase is for quick/customizeable access to favorite or repeatedly visited websites. Still needs work, but the goods are there.<br>
 Example:<br>
 <br>
-<img src='https://camo.githubusercontent.com/d4b39be4ed30f6367d39ca0989e6ecb4b66596ce/68747470733a2f2f7331312e706f7374696d672e6f72672f7538766166387765722f3332313332312e706e67'>
+<a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/generateWebpageIconButtons/generateHTML.py'><img src='https://camo.githubusercontent.com/d4b39be4ed30f6367d39ca0989e6ecb4b66596ce/68747470733a2f2f7331312e706f7374696d672e6f72672f7538766166387765722f3332313332312e706e67'></a>
 
 ## eBayFeesCalculator.py
 This is a spin off of the basic **Fun Money and Net Paycheck Calculator** calculator GUI. Only for calculating sales on eCommerce Platforms. With eCommerce Poll Taxes, shipping and such in mind. ie: hardcoded PayPal fee of .029% (+.30 cent transaction fee), ebay's 10% of the total sale, manual shipping cost. All minus gross sales to get net profit. So on, so forth. TODO: Margins, Markup, etc...<br>
