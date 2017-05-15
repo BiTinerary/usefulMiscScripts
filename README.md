@@ -36,4 +36,5 @@ Example:<br>
 
 ## eBayFeesCalculator.py
 This is a spin off of the basic **Fun Money and Net Paycheck Calculator** calculator GUI. Only for calculating sales on eCommerce Platforms. With eCommerce Poll Taxes, shipping and such in mind. ie: hardcoded PayPal fee of .029% (+.30 cent transaction fee), ebay's 10% of the total sale, manual shipping cost. All minus gross sales to get net profit. So on, so forth. TODO: Margins, Markup, etc...<br>
+<br>
 <a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/eBayFeesCalculator.py'><img src='https://github.com/BiTinerary/usefulMiscScripts/blob/master/ebayCalculatorImg.png'></a>
