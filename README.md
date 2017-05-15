@@ -13,7 +13,7 @@ Place in <a href='http://www.friendlyarm.com/index.php?route=product/product&pat
 Back up of and credz to <a href='https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WebServer/examples/SDWebServer/SDWebServer.ino'>this</a> `.ino` file.
 
 ## Fun Money and Net Paycheck Calculator
-Figure out upcoming paycheck after taxes. Figure out budget after bills due. <br>**TODO**: Output array vars to .txt/.csv
+Figure out upcoming paycheck after taxes. Figure out budget after bills due. **TODO**: Output array vars to .txt/.csv
 <a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/funMoneyPayCheckCalc.py'><img src='https://s11.postimg.org/qlagttk77/fun_Money_Tkinter.png'></a>
 
 ## csvToDictAddColumns.py
