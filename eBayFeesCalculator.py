@@ -18,6 +18,7 @@ class mainApp(tk.Tk):
 		tk.Label(width=75, height=3, textvariable=v, relief='ridge').grid(row=7, rowspan=3, column=0, columnspan=2, padx=5, pady=5)
 
 		def getInput():
+			tk.Label(width=75, height=3, textvariable=v, relief='ridge').grid(row=7, rowspan=3, column=0, columnspan=2, padx=5, pady=5)
 			try:
 
 				grossSales = float(entry1.get())
@@ -28,8 +29,9 @@ class mainApp(tk.Tk):
 				shippingCosts = float(entry5.get())
 				miscellaneousCosts = float(entry6.get())
 
-				totalFees = ebayFees + payPalFees + shippingCosts + miscellaneousCosts
-				netProfits = grossSales - costOfGoods - totalFees
+				totalFees = round(ebayFees + payPalFees + shippingCosts + miscellaneousCosts, 2)
+				netProfits = round(grossSales - costOfGoods - totalFees, 2)
+				netMargin = round(netProfits / costOfGoods * 100, 2)
 
 				print grossSales
 				print costOfGoods
@@ -41,7 +43,7 @@ class mainApp(tk.Tk):
 				print "Net: %s" % netProfits
 				#print "Margin: %s" 
 
-				v.set("Gross Sales:    %s\n Net Profits:      %s\n Total Fees: %s            Cost of Goods:%s" % (grossSales, netProfits, totalFees, costOfGoods))
+				v.set("Gross Sales:    %s\n Net Profits: %s          Net Margin: %s\n Total Fees: %s            Cost of Goods: %s" % (grossSales, netProfits, netMargin, totalFees, costOfGoods))
 			
 			except:
 				tk.Label(width=75, height=3, textvariable=v, relief='ridge', fg='red').grid(row=7, rowspan=3, column=0, columnspan=2, padx=5, pady=5)
