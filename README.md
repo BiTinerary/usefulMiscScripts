@@ -44,5 +44,8 @@ It's also a good teaching example (I think) of many/most pythonic techniques. Fi
 
 e.g. 
 ```
-{"darkSkyKey": "YOUR-DARKSKY-API-KEY-HERE", "geoLocKey": "YOUR-GOOGLE-GEOLOCATION-API-KEY-HERE", "responseFileName": "darkSkyResponse.json", "zipOrAddy": "55403"}
+{"darkSkyKey": "YOUR-DARKSKY-API-KEY-HERE",  
+"geoLocKey": "YOUR-GOOGLE-GEOLOCATION-API-KEY-HERE",  
+"responseFileName": "darkSkyResponse.json",  
+"zipOrAddy": "55403"}
 ```
