@@ -36,3 +36,13 @@ Example:<br>
 This is a spin off of the basic **Fun Money and Net Paycheck Calculator** calculator GUI. Only for calculating sales on eCommerce Platforms. With eCommerce Poll Taxes, shipping and such in mind. ie: hardcoded PayPal fee of .029% (+.30 cent transaction fee), ebay's 10% of the total sale, manual shipping cost. All minus gross sales to get net profit. So on, so forth. <br>**TODO**: Margins, Markup, etc...<br>
 <br>
 <a href='https://github.com/BiTinerary/usefulMiscScripts/blob/master/eBayFeesCalculator.py'><img src='https://github.com/BiTinerary/usefulMiscScripts/blob/master/zPics/picEbayFees.png'></a>
+
+## darkSkyWeather.py
+Parses Dark Sky API for specific results. Returns only summary, 3 day forecast (chance of rain) or detailed weather for the day. Depending on user input argument. This script requires seperate json credentials file `config.json` as hardcoded on line 3, which provides API keys and other potentially hardcoded material. Uses all default python libraries, excluding `requests`. No wrappers!  
+  
+It's also a good teaching example (I think) of many/most pythonic techniques. File reading/writing. Interacting with API's via raw .json indexes, which is also just a fancy way of navigating nested dictionaries. Iterating over dictionaries, adding values to it's keys. Arrays. String formatting. Coding without globals by means of passing parameters to functions. Error handling. Try/except, for, if/else loops and more. I think the only (rudementary) thing I don't use is a while loop.
+
+e.g. 
+```
+{"darkSkyKey": "YOUR-DARKSKY-API-KEY-HERE", "geoLocKey": "YOUR-GOOGLE-GEOLOCATION-API-KEY-HERE", "responseFileName": "darkSkyResponse.json", "zipOrAddy": "55403"}
+```
