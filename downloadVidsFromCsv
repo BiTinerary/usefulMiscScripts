@@ -1,0 +1,16 @@
+import requests, csv
+
+def download_file(fileName, url):
+	url = url.replace('\n', '').replace(' ', '')
+	r = requests.get(url, stream=True)
+	with open(fileName+'.mp4', 'wb') as f:
+		for chunk in r.iter_content(chunk_size=1024): 
+			if chunk:
+				f.write(chunk)
+	print fileName
+	return fileName
+
+with open('urls.csv', 'r+') as urls:
+	reader = csv.reader(urls)
+	for each in reader:
+		download_file(str(each[0]), str(each[1]))
