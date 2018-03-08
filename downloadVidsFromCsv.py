@@ -24,6 +24,7 @@ def getLinksFromClipBoard(): #!!!This function needs to be manually broken. It i
 			curClip.append(clipContents)
 
 			if [x, curClip[-1]] not in MasterAry and curClip[-1] != '':
+			## ^^ Do not increment 'X' or copy link to clipboard unless unique.^^
 				x += 1
 				MasterAry.append([x, curClip[-1]])
 
